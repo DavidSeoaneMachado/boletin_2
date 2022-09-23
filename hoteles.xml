@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone= "yes"?>
 
 <!DOCTYPE registro [
-<!ELEMENT hotel (nombre,telefono,direccion,ciudad,pais,numero_de_estrellas,descripción_del_hotel,habitaciones_individuales, habitaciones_dobles, habitaciones_triples, suites)>
+<!ELEMENT registro (nombre,telefono,direccion,ciudad,pais,numero_de_estrellas,descripción_del_hotel,habitaciones_individuales, habitaciones_dobles, habitaciones_triples, suites)>
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT telefono (#PCDATA)>
 <!ELEMENT direccion (calle, numero)>
