@@ -1,4 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone= "yes"?>
+
+<!DOCTYPE registro [
+<!ELEMENT hotel (nombre,telefono,direccion,ciudad,pais,numero_de_estrellas,descripción_del_hotel,habitaciones_individuales, habitaciones_dobles, habitaciones_triples, suites)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT direccion (calle, numero)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT numero_de_estrellas (#PCDATA)>
+<!ELEMENT descripción_del_hotel (#PCDATA)>
+<!ELEMENT habitaciones_individuales (#PCDATA)>
+<!ELEMENT habitaciones_dobles (#PCDATA)>
+<!ELEMENT habitaciones_triples (#PCDATA)>
+<!ELEMENT suites (#PCDATA)>
+]>
+
+<registro>
+    <nombre>Neptuno</nombre>
+    <telefono>986556644</telefono>
+    <direccion>
+        <calle>Travesia de Lourdes</calle>
+        <numero>45</numero>
+    </direccion>
+    <ciudad>Zaragoza</ciudad>
+    <pais>España</pais>
+    <numero_de_estrellas>4</numero_de_estrellas>
+    <descripción_del_hotel>Comodo y acogedor</descripción_del_hotel>
+    <habitaciones_individuales>6</habitaciones_individuales>
+    <habitaciones_dobles>7</habitaciones_dobles>
+    <habitaciones_triples>4</habitaciones_triples>
+    <suites>9</suites>
+</registro>
+
+
 <!-- Completar este documento para registrar hoteles,
     donde tengas nombre, teléfono, dirección(calle y número),
     ciudad, país, numero de estrellas, descripción del hotel,
